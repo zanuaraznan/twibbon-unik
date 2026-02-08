@@ -11,7 +11,7 @@ export default function Page() {
             <a
                 href='https://unik-kediri.ac.id'
                 target='_blank'
-                className='fixed top-0 flex items-center justify-between w-full p-4'
+                className='fixed top-0 flex items-center justify-between w-fit p-4'
                 rel='noopener noreferrer'
                 referrerPolicy='no-referrer'>
                 <Image
