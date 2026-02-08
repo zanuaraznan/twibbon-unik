@@ -253,13 +253,11 @@ export default function CanvasEditor({
                     className=' hover:bg-neutral-600 transition-colors p-3 px-5 rounded-3xl bg-neutral-700 text-orange-200 flex items-center gap-2 cursor-pointer'>
                     Upload Image <MdUpload size={24} />
                 </label>
-                {img && (
-                    <button
-                        onClick={exportPNG}
-                        className='hover:bg-orange-200 transition-colors p-3 px-5 rounded-3xl bg-orange-300 text-orange-700 flex items-center gap-2'>
-                        Export Twibbon <MdPhoto size={24} />
-                    </button>
-                )}
+                <button
+                    onClick={exportPNG}
+                    className='hover:bg-orange-200 transition-colors p-3 px-5 rounded-3xl bg-orange-300 text-orange-700 flex items-center gap-2'>
+                    Export Twibbon <MdPhoto size={24} />
+                </button>
             </div>
         </div>
     );
